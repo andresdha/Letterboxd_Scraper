@@ -12,4 +12,4 @@ Data collected for each movie:
 
 Title, Year of release, Director(s), Average letterboxd rating, Running Time, Views, Likes, and number of ratings for each possible rating of min half a star and max five stars in steps of halves.
 
-Error logs are caused by movies that are yet to be released. This doesn't affect the spider. Those entries can be cleaned up later.
+Error logs are caused by movies that are missing numeric data. These are left out of the final dataset.
