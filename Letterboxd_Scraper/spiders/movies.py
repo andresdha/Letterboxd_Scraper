@@ -123,7 +123,7 @@ class MoviesSpider(scrapy.Spider):
             if rating_null:
                 n_star_ratings[i] = 0
             else:
-                n_star_ratings[i] = int(each[0].replace(',',''))
+                n_star_ratings[i] = int(elements[0].replace(',',''))
             i += 1
 
 
